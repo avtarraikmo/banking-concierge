@@ -5,21 +5,21 @@ description = "Meridian National personal banking customer service concierge dem
 readme = "README.md"
 requires-python = ">=3.11,<4.0"
 dependencies = [
-    "langgraph>=0.6.0",
-    "langchain>=0.3.27",
-    "langchain-core>=0.3.0",
-    "langchain-openai>=0.3.0",
-    "langchain-text-splitters>=0.3.0",
-    "langsmith>=0.8.5",
-    "python-dotenv>=1.0.1",
-    "langgraph-sdk>=0.1.66",
-    "numpy>=1.26",
-    "fastapi>=0.115",
+    "langgraph>=1.2.22",
+    "langchain>=1.5.0",
+    "langchain-core>=1.8.1",
+    "langchain-openai>=1.8.0",
+    "langchain-text-splitters>=1.1.3",
+    "langsmith>=0.15.0",
+    "python-dotenv>=1.2.4",
+    "langgraph-sdk>=0.4.14",
+    "numpy>=2.4.6",
+    "fastapi>=0.163.2",
 ]
 
 [dependency-groups]
 dev = [
-    "langgraph-cli[inmem]>=0.2.0",
+    "langgraph-cli[inmem]>=0.4.43",
 ]
 
 [build-system]

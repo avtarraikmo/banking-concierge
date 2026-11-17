@@ -1,0 +1,15 @@
+{
+  "explorer.excludeGitIgnore": false,
+
+  // Tab Sizing
+  "editor.tabSize": 2,
+
+  // Python
+  "python.envFile": "${workspaceFolder}/.env",
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.terminal.activateEnvironment": true,
+  "python.createEnvironment.contentButton": "show",
+  "python.analysis.typeCheckingMode": "off",
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+}
